@@ -7,7 +7,6 @@ GREEN = 3
 ORANGE = 4
 RED = 5
 VOID = 6
-KAKA = 7
 
 COLOR_RGB = {
     WHITE: (255, 255, 255),
@@ -17,7 +16,6 @@ COLOR_RGB = {
     ORANGE: (255, 165, 0),
     RED: (255, 0, 0),
     VOID: (0,0,0),
-    KAKA: (50,50,50)
 }
 
 
@@ -73,3 +71,13 @@ ACTION_ID = {'U': 0,
             'F*': 16,
             'B*': 17
         }
+
+
+OPPOSITE_FACES = {
+    'U':'D',
+    'R':'L',
+    'F':'B',
+    'D':'U',
+    'L':'R',
+    'B':'F',
+}
